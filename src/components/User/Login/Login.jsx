@@ -49,6 +49,7 @@ const UserLogin = () => {
 
   return (
 
+    <div className='background'>
 
     <div className="user-login">
 
@@ -93,6 +94,7 @@ const UserLogin = () => {
           Entrar
         </UIButton>
       </form>
+    </div>
     </div>
   );
 };

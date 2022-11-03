@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
-.pages-home {
+body {
+  background-color: #f1f1f1
 }
 
 img.Logosecund {
@@ -27,7 +28,7 @@ hr.line {
   height: 45%;
   background-position: center;
   background: white;
-  box-shadow: 8px 4px 32px rgba(0, 0, 0, 0.25);
+  
   border-radius: 10px;
 }
 .btnSair {
@@ -62,7 +63,7 @@ a {
 .add {
   background-color: white;
   width: 400px;
-  height: 500px;
+  height: 460px;
   float: right;
   border-radius: 20px;
   margin-right: 20%;
@@ -91,6 +92,8 @@ img#more {
 }
 
 p#addp {
+  background-position: center;
+  margin-left: 10%;
   text-align: center;
   margin-left: 5%;
   margin-top: -8%;
@@ -143,4 +146,25 @@ p#addp {
   float: right;
   margin-right: 5%;
   margin-top: 7%;
+}
+
+.Add {
+  background-color:#020659;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 33px;
+  margin-top: 8%;
+  margin-left: 20%;
+  border-radius: 20px;
+  margin-bottom: 5%;
+}
+
+.p {
+  text-align: center;
+}
+
+.btnSair {
+  margin-top: -27%;
+  margin-left: 70%;
 }
