@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;600&display=swap");
 
 body {
-  background-image: url('https://revistasegurancaeletronica.com.br/wp-content/uploads/2021/01/real-hospital-portugues-de-beneficencia-em-pernambuco.jpg');
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #d3d3d3;
 }
 
 .user-login {
-  
   filter: alpha(opacity=80);
   opacity: 0.8;
   -moz-opacity: 0.8;
@@ -23,7 +19,7 @@ body {
 }
 
 .user-login__title {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 30px;
   color: black;
   margin-bottom: -5%;
@@ -50,7 +46,6 @@ body {
   font-size: 16px;
   margin-left: 10px;
   margin-right: 10px;
-  
 }
 
 .user-login__form-control input {
@@ -93,4 +88,3 @@ body {
   right: 0;
   height: 35px;
 }
-
